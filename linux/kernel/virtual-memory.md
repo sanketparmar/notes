@@ -12,7 +12,7 @@ Reasons for using virtual memory
 
 ### Introduction to the Virtual Memory System
 
-![Fig 1](../imgs/address-space.png)
+![Fig 1](../../imgs/address-space.gif)
 
 The virtual address space is divided into equal-sized pieces called virtual pages. Virtual pages have a fixed size that is an integer power of 2. For example, IA-32 uses a page size of 4 Kbytes. To maximize performance, IA-64 supports multiple page sizes and Linux can be configured to use a size of 4, 8, 16, or 64 Kbytes.
 
